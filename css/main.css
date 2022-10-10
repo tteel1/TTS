@@ -1,0 +1,57 @@
+.navbar {
+    background: white;
+    position: sticky;
+
+    font-family: Poppins;
+}
+
+.nav-link,
+.navbar-brand {
+    color: gray;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    background: #f4f4f4;
+    color: blue;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
+
+
+
+
+
+h3{
+    color: black;
+}
+
+.handshake{
+    background-image: url(images/handshake.jpg);
+    background-size: contain;
+}
+
+.bgblue {
+    background-color: blue;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    justify-content: center; 
+    align-self: center;
+  }
+
+  
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: -50px;
+  }
+
