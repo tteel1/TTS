@@ -1,0 +1,127 @@
+ <ul>
+    <li><a href="#logo"></a><img src="ttslogo.png" alt="Logo" style="width:200px;"/></li>
+    <li style="float:right"><a class="active" href="#about us">About Us</a></li>
+    <li style="float:right"><a class="active" href="#get hired">Get Hired</a></li>
+    <li style="float:right"><a class="active" href="#hire talent">Hire Talent</a></li>
+  </ul>
+
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
+
+  edited out of #navigation-container {
+    width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+  align-self: flex-start;
+
+  edited out of .navigation-bar {
+    background-color: lightblue;
+  height: 70px;
+  width: 100%;
+
+
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        Bootstrap
+      </a>
+    </div>
+  </nav>
+
+
+  <div class="navigation-bar">
+    <div id="navigation-container">
+        <img src="ttslogo.png" style="width:200px;"> 
+        <ul>
+          <li style="float:right"><a class="active" href="#about us">About Us</a></li>
+          <li style="float:right"><a class="active" href="#get hired">Get Hired</a></li>
+          <li style="float:right"><a class="active" href="#hire talent">Hire Talent</a></li>
+        </ul>
+    </div>
+</div>
+
+ 
+<body>
+ 
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="ttslogo.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
+      </a>
+    </div>
+  </nav>
+
+
+function gratuity()
+
+let billAmount=100
+
+
+.logo {
+  float: left;
+  height: auto;
+}
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  background-color: lightblue;
+  height: 70px;
+  width: 100%;
+}
+
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  top: 0;
+}
+
+.navigation-bar li a {
+  color: white;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 25px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+#menu {
+  float: right;
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+.container {
+  background-color: white;
+}
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
